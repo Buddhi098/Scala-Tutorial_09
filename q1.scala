@@ -13,8 +13,9 @@ object q1{
         def neg(): Unit ={
             if((n/d)>0){
                 println(s"-$numer/$denom")
+            }else{
+                println(s"$numer/$denom")
             }
-        }
     }
     def main(args: Array[String]): Unit = {
         val num1 = Rational(22 , 2)
