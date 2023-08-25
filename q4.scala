@@ -18,7 +18,7 @@ object q4 {
             if (balance > 0) {
             balance += balance * 0.05
             } else {
-            balance -= balance * 0.1
+            balance += balance * 0.1
             }
         }
         
